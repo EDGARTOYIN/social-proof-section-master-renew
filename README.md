@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Repo]([https://your-solution-url.com](https://github.com/EDGARTOYIN))
-- Live Site URL: [LIVE SITE]([https://your-live-site-url.com](https://edgartoyin.github.io/social-proof-section-master-renew/))
+- Solution URL: [https://your-solution-url.com](https://github.com/EDGARTOYIN)](REPO)
+- Live Site URL: [https://your-live-site-url.com](https://edgartoyin.github.io/social-proof-section-master-renew/)](Site)
 
 ## My process
 
