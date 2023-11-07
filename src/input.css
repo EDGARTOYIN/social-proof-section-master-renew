@@ -10,14 +10,14 @@
   height: 1rem;
   margin: 0 auto;
   display: block;
-  background-image: url("/images/icon-star.svg");
+  background-image: url("../images/icon-star.svg");
   margin-bottom: 0.5rem;
   background-repeat: space;
 }
 
 .bg-img {
-  background-image: url("/images/bg-pattern-top-desktop.svg"),
-    url("/images/bg-pattern-bottom-desktop.svg");
+  background-image: url("../images/bg-pattern-top-desktop.svg"),
+    url("../images/bg-pattern-bottom-desktop.svg");
   background-size: max(40%, 400px), max(70%, 400px);
   background-position:
     top left,
