@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,600&family=Hanken+Grotesk:wght@100;200;500&family=Kumbh+Sans:wght@400;700;900&family=League+Spartan:wght@400;500;700&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,700&family=Roboto:wght@300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.stars::before {
+  content: "";
+  width: 100px;
+  height: 1rem;
+  margin: 0 auto;
+  display: block;
+  background-image: url("/images/icon-star.svg");
+  margin-bottom: 0.5rem;
+  background-repeat: space;
+}
+
+.bg-img {
+  background-image: url("/images/bg-pattern-top-desktop.svg"),
+    url("/images/bg-pattern-bottom-desktop.svg");
+  background-size: max(40%, 400px), max(70%, 400px);
+  background-position:
+    top left,
+    bottom right;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .stars::before {
+    margin: 0;
+    margin-right: 1.4rem;
+  }
+}
